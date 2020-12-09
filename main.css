@@ -1,0 +1,42 @@
+/* header{
+    height: 100px;
+    position:sticky;
+    background-color: orange;
+} */
+
+li 
+{
+    display: inline;
+    padding: 0px 80px 0px 0px;
+}
+
+nav
+{
+    padding: 15px;
+}
+
+.services
+{
+   
+   overflow: hidden;
+   display: inline;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+}
+.services:hover .dropdown-content
+{
+    display: block;
+
+}
+
+.dropdown-content a {
+ display: block;
+}
+
+ .navbar {
+    display: inline;
+  } 
+  
